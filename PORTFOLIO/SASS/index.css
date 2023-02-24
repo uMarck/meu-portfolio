@@ -1,0 +1,171 @@
+@import url("https://fonts.googleapis.com/css2?family=Babylonica&family=Montserrat:wght@400;700;900&family=Poppins:wght@200;400;600;800&family=Quicksand:wght@600&family=Zeyada&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 25px;
+  color: white;
+  background-color: #2B2E30;
+  font-family: "Montserrat", "Helvetica Neue", Helvetica;
+}
+header .menu a {
+  text-decoration: none;
+  padding: 5px 20px;
+  margin: 0px 99px 99px 0px;
+  color: white;
+  transition: 0.5s;
+}
+header .menu a:hover {
+  color: rgb(137, 57, 194);
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  padding-top: 5px;
+  font-family: "Montserrat", "Poppins", Verdana;
+  color: white;
+  background-image: linear-gradient(#2B2E30 35%, #0040ae 35%);
+}
+.container .sobre {
+  margin-right: -80px;
+}
+.container .sobre h1 {
+  filter: drop-shadow(0.5px 0.5px 25px black);
+}
+.container #ps {
+  padding: 5px 0 0 0;
+}
+.container #ps p {
+  margin: 15px 0 0 0;
+}
+
+.container2 {
+  margin: auto;
+  height: 100vh;
+  background-image: linear-gradient(#0040ae 55%, rgb(170, 143, 23) 45%);
+}
+.container2 #cards {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  padding-top: 30px;
+}
+.container2 #card {
+  border: 5px solid rgb(255, 255, 255);
+  border-radius: 30px;
+  text-align: center;
+  height: 550px;
+  transition: 0.5s ease;
+  background-color: transparent;
+  color: white;
+  -webkit-backdrop-filter: blur(10px);
+          backdrop-filter: blur(10px);
+}
+.container2 #card:hover {
+  transform: scale(1.02);
+  text-shadow: 0.5px 0.5px 5px black;
+  box-shadow: 2px 2px 1px black;
+}
+.container2 #card #css {
+  transition: 0.5s;
+}
+.container2 #card #css:hover {
+  background-color: #214ce5;
+  color: black;
+}
+.container2 #card #sass {
+  transition: 0.5s;
+}
+.container2 #card #sass:hover {
+  background-color: #ce679a;
+  color: black;
+}
+.container2 #card #js {
+  transition: 0.5s;
+}
+.container2 #card #js:hover {
+  background-color: yellow;
+  color: black;
+}
+.container2 #card #bts {
+  transition: 0.5s;
+}
+.container2 #card #bts:hover {
+  background-color: indigo;
+}
+.container2 #card img {
+  border-radius: 25px 25px 0px 0px;
+}
+.container2 #card #nome {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-family: "Montserrat", "Babylonica", "Poppins", "Quicksand", "Zeyada", Helvetica, "Fredoka One", Verdana;
+}
+.container2 #card #desc {
+  text-align: center;
+  margin: 5px;
+  margin-bottom: 5px;
+  font-family: "Montserrat", "Babylonica", "Poppins", "Quicksand", "Zeyada", Helvetica, "Fredoka One", Verdana;
+  line-height: 23px;
+  width: 335px;
+}
+.container2 #card #desc p {
+  font-size: 12px;
+  padding: 10px 0px 0px 0px;
+}
+.container2 #card #tecs {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  font-family: "Montserrat", "Babylonica", "Poppins", "Quicksand", "Zeyada", Helvetica, "Fredoka One", Verdana;
+}
+.container2 #card #tecs p {
+  border: 0.5px solid rgb(2, 0, 3);
+  border-radius: 5px;
+  padding: 5px;
+}
+.container2 #card #view {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 35px;
+}
+.container2 #card #view a {
+  text-decoration: none;
+  outline: none;
+  color: rgb(255, 255, 255);
+  margin: 5;
+  font-family: "Montserrat", "Babylonica", "Poppins", "Quicksand", "Zeyada", Helvetica, "Fredoka One", Verdana;
+  border-radius: 5px;
+  padding: 5px;
+}
+.container2 #card #view a img {
+  margin-left: 25px;
+  margin-right: 25px;
+  filter: invert(100%);
+  transition: 0.5s ease;
+}
+.container2 #card #view a img:hover {
+  transform: scale(1.1);
+}/*# sourceMappingURL=index.css.map */
