@@ -55,17 +55,23 @@ header .menu a:hover {
   margin: 15px 0 0 0;
 }
 
+#meus {
+  text-align: center;
+  font-family: "Montserrat", "Babylonica", "Poppins", "Quicksand", "Zeyada", Helvetica, "Fredoka One", Verdana;
+  color: white;
+}
+
 .container2 {
   margin: auto;
   height: 100vh;
-  background-image: linear-gradient(#0040ae 55%, rgb(170, 143, 23) 45%);
+  background-image: linear-gradient(#0040ae 25%, #5878fa 45%);
 }
 .container2 #cards {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
   align-items: center;
-  padding-top: 30px;
+  padding-top: 18px;
 }
 .container2 #card {
   border: 5px solid rgb(255, 255, 255);
@@ -75,40 +81,37 @@ header .menu a:hover {
   transition: 0.5s ease;
   background-color: transparent;
   color: white;
-  -webkit-backdrop-filter: blur(10px);
-          backdrop-filter: blur(10px);
 }
 .container2 #card:hover {
   transform: scale(1.02);
-  text-shadow: 0.5px 0.5px 5px black;
   box-shadow: 2px 2px 1px black;
 }
 .container2 #card #css {
-  transition: 0.5s;
-}
-.container2 #card #css:hover {
-  background-color: #214ce5;
-  color: black;
+  background-color: #0037ff;
+  color: rgb(239, 239, 239);
+  text-shadow: 0.5px 1px 5px black;
+  font-weight: bolder;
+  box-shadow: 2.5px 2px 0.5px rgba(0, 0, 0, 0.665);
 }
 .container2 #card #sass {
-  transition: 0.5s;
-}
-.container2 #card #sass:hover {
   background-color: #ce679a;
-  color: black;
+  color: rgb(255, 255, 255);
+  text-shadow: 0.5px 1px 5px black;
+  font-weight: bolder;
+  box-shadow: 2.5px 2px 0.5px rgba(0, 0, 0, 0.665);
 }
 .container2 #card #js {
-  transition: 0.5s;
-}
-.container2 #card #js:hover {
-  background-color: yellow;
-  color: black;
+  background-color: rgb(211, 204, 56);
+  text-shadow: 0.5px 1px 5px black;
+  color: rgb(255, 255, 255);
+  font-weight: bolder;
+  box-shadow: 2.5px 2px 0.5px rgba(0, 0, 0, 0.665);
 }
 .container2 #card #bts {
-  transition: 0.5s;
-}
-.container2 #card #bts:hover {
   background-color: indigo;
+  font-weight: bolder;
+  box-shadow: 2.5px 2px 0.5px rgba(0, 0, 0, 0.665);
+  text-shadow: 0.5px 1px 5px black;
 }
 .container2 #card img {
   border-radius: 25px 25px 0px 0px;
@@ -168,4 +171,89 @@ header .menu a:hover {
 }
 .container2 #card #view a img:hover {
   transform: scale(1.1);
+}
+
+.container3 {
+  background-color: #5878fa;
+  height: 100vh;
+}
+.container3 h1 {
+  text-align: center;
+  color: white;
+  font-family: "Montserrat", "Babylonica", "Poppins", "Quicksand", "Zeyada", Helvetica, "Fredoka One", Verdana;
+  padding: 10px 15px 5px 25px;
+}
+.container3 #tecnologias {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  padding: 10px 5px 45px 5px;
+}
+.container3 #tecnologias img {
+  filter: drop-shadow(0.5px 0.5px 15px black);
+  transition: 0.5s ease;
+}
+.container3 #tecnologias img:hover {
+  transform: translateY(-10px);
+}
+.container3 #utilitarios {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  padding: 10px 5px 50px 5px;
+  margin: auto;
+  text-align: center;
+}
+.container3 #utilitarios img {
+  filter: drop-shadow(0.5px 0.5px 15px black);
+  transition: 0.5s ease;
+}
+.container3 #utilitarios img:hover {
+  transform: translateY(-10px);
+}
+.container3 #adicionais {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  padding: 10px 5px 50px 5px;
+  margin: auto;
+  text-align: center;
+}
+.container3 #adicionais img {
+  filter: drop-shadow(0.5px 0.5px 15px black);
+  transition: 0.5s ease;
+}
+.container3 #adicionais img:hover {
+  transform: translateY(-10px);
+}
+.container3 #extras {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 10px 5px 0px 0px;
+  margin: auto;
+  text-align: center;
+}
+.container3 #extras img {
+  filter: drop-shadow(0.5px 0.5px 15px black);
+  transition: 0.5s ease;
+}
+.container3 #extras img:hover {
+  transform: translateY(-10px);
+}
+
+#topo {
+  text-align: center;
+  font-family: "Montserrat", "Babylonica", "Poppins", "Quicksand", "Zeyada", Helvetica, "Fredoka One", Verdana;
+  font-weight: 600;
+  padding: 145px;
+  background-color: #2B2E30;
+}
+#topo a {
+  text-decoration: none;
+  color: white;
 }/*# sourceMappingURL=index.css.map */

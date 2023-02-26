@@ -62,16 +62,22 @@ header {
     }
 }
 
+#meus {
+    text-align: center;
+    font-family: $font;
+    color: white;
+}
+
 .container2 {
     margin: auto;
     height: 100vh;
-    background-image: linear-gradient(#0040ae 55%, rgb(170, 143, 23) 45%);
+    background-image: linear-gradient(#0040ae 25%, #5878fa 45%);
     #cards {
         display: flex;
         flex-direction: row;
         justify-content: space-evenly;
         align-items: center;
-        padding-top: 30px;
+        padding-top: 18px;
     }
 
     #card {
@@ -82,42 +88,40 @@ header {
         transition: 0.5s ease;
         background-color: transparent;
         color: white;
-        backdrop-filter: blur(10px);
         &:hover {
             transform: scale(1.02);
-            text-shadow: 0.5px 0.5px 5px black;
             box-shadow: 2px 2px 1px black;
         }
 
         #css {
-            transition: 0.5s;
-            &:hover {
-                background-color: #214ce5;
-                color: black;
-            }
+            background-color: #0037ff;
+            color: rgb(239, 239, 239);
+            text-shadow: 0.5px 1px 5px black;
+            font-weight: bolder;
+            box-shadow: 2.5px 2px 0.5px rgba(0, 0, 0, 0.665);
         }
 
         #sass {
-            transition: 0.5s;
-            &:hover {
-                background-color: #ce679a;
-                color: black;
-            }
+            background-color: #ce679a;
+            color: rgb(255, 255, 255);
+            text-shadow: 0.5px 1px 5px black;
+            font-weight: bolder;
+            box-shadow: 2.5px 2px 0.5px rgba(0, 0, 0, 0.665);
         }
 
         #js {
-            transition: 0.5s;
-            &:hover {
-                background-color: yellow;
-                color: black;
-            }
+            background-color: rgb(211, 204, 56);
+            text-shadow: 0.5px 1px 5px black;
+            color: rgb(255, 255, 255);
+            font-weight: bolder;
+            box-shadow: 2.5px 2px 0.5px rgba(0, 0, 0, 0.665);
         }
 
         #bts {
-            transition: 0.5s;
-            &:hover {
-                background-color: indigo;
-            }
+            background-color: indigo;
+            font-weight: bolder;
+            box-shadow: 2.5px 2px 0.5px rgba(0, 0, 0, 0.665);
+            text-shadow: 0.5px 1px 5px black;
         }
 
         img {
@@ -186,5 +190,94 @@ header {
                 }
             }
         }
+    }
+}
+
+.container3 {
+    background-color: #5878fa;
+    height: 100vh;
+    h1 {
+        text-align: center;
+        color: white;
+        font-family: $font;
+        padding: 10px 15px 5px 25px;
+    }
+    #tecnologias {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+        padding: 10px 5px 45px 5px;
+        img {
+            filter: drop-shadow(0.5px 0.5px 15px black);
+            transition: 0.5s ease;
+            &:hover {
+                transform: translateY(-10px);
+            }
+        }
+    }
+
+    #utilitarios {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+        padding: 10px 5px 50px 5px;
+        margin: auto;
+        text-align: center;
+        img {
+            filter: drop-shadow(0.5px 0.5px 15px black);
+            transition: 0.5s ease;
+            &:hover {
+                transform: translateY(-10px);
+            }
+        }
+    }
+
+    #adicionais {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+        padding: 10px 5px 50px 5px;
+        margin: auto;
+        text-align: center;
+        img {
+            filter: drop-shadow(0.5px 0.5px 15px black);
+            transition: 0.5s ease;
+            &:hover {
+                transform: translateY(-10px);
+            }
+        }
+    }
+
+    #extras {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-evenly;
+        padding: 10px 5px 0px 0px;
+        margin: auto;
+        text-align: center;
+        img {
+            filter: drop-shadow(0.5px 0.5px 15px black);
+            transition: 0.5s ease;
+            &:hover {
+                transform: translateY(-10px);
+            }
+        }
+    }
+}
+
+#topo {
+    text-align: center;
+    font-family: $font;
+    font-weight: 600;
+    padding: 145px;
+    background-color: #2B2E30;
+
+    a {
+        text-decoration: none;
+        color: white;
     }
 }
