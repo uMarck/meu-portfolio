@@ -1,0 +1,105 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #292929;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+h1, h2 {
+  font-size: 30px;
+  color: #FFF;
+  line-height: 1.2rem;
+  text-align: center;
+}
+
+h1::before {
+  display: block;
+}
+
+h2::before {
+  display: block;
+}
+
+.form {
+  width: 100%;
+  max-width: 32rem;
+  font-size: 1.25rem;
+}
+
+.form label,
+.form input,
+.form textarea,
+.form button {
+  display: block;
+  width: 100%;
+}
+
+.form label {
+  color: #FFF;
+  line-height: 1;
+  margin-bottom: 0.5rem;
+}
+
+.form input,
+.form textarea {
+  font: inherit;
+  padding: 0.8rem;
+  margin-bottom: 1rem;
+  border: 1px solid transparent;
+  border-radius: 8px;
+  transition: 0.5s;
+}
+
+.form textarea {
+  min-height: 13rem;
+  resize: vertical;
+}
+
+.form input:hover,
+.form input:focus,
+.form textarea:hover,
+.form textarea:focus {
+  outline: none;
+  border-color: #09D;
+  box-shadow: 0 0 0 3px #4DC8FF;
+}
+
+.form button {
+  display: block;
+  padding: 1rem;
+  background-color: #0072C4;
+  color: #FFF;
+  font: inherit;
+  text-transform: uppercase;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.form button:hover,
+.form button:focus {
+  outline: none;
+  background-color: #09D;
+}
+
+h4 {
+  color: white;
+  padding-top: 5px;
+}
+h4 a {
+  color: white;
+  outline: none;
+  text-decoration: none;
+}/*# sourceMappingURL=contato.css.map */

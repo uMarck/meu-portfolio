@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contate-me !</title>
+    <link rel="stylesheet" href="./SASS CONTATO/contato.css">
+</head>
+<body>
+    <div id="contato">
+        <h1>Me contate !</h1>
+        <br>
+        <form action="https://formsubmit.co/ryanmarck2@gmail.com" class="form" method="POST">
+            <div id="nome">
+                <label for="text">Seu nome</label>
+                <input type="text" name="name" id="name" placeholder="*" required>
+            </div>
+            <div id="email">
+                <label for="email">Seu e-mail</label>
+                <input type="email" name="email" id="email" placeholder="*" required>
+            </div>
+            <div id="mensagem">
+                <label for="message">Sua mensagem</label>
+                <textarea name="message" id="message" placeholder="*" required></textarea>
+            </div>
+            <input type="hidden" name="_next" value="./obrigado.html">
+            <button type="submit">Enviar</button>
+        </form>
+        <h4>Power By <a href="https://formsubmit.co/" target="_blank">FormSubmit</a></h4>
+    </div>
+</body>
+</html>
