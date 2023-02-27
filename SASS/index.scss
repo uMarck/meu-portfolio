@@ -11,6 +11,9 @@ $bgs: "#292929";
 
 body {
     user-select: none;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
 }
 
 header {
@@ -35,6 +38,10 @@ header {
     }
 }
 
+.menu-bg {
+    display: none;
+}
+
 .container {
     display: flex;
     flex-direction: row;
@@ -46,7 +53,7 @@ header {
     background-image: linear-gradient(#2B2E30 35%, #0040ae 35%);
 
     .sobre {
-        margin-right: -80px;
+        margin-right: -45px;
     
         h1 {
             filter: drop-shadow(0.5px 0.5px 25px black);
@@ -279,5 +286,493 @@ header {
     a {
         text-decoration: none;
         color: white;
+    }
+}
+
+@media screen and (max-width: 428px) {
+    header {
+        display: none;
+    }
+
+    .menu-bg {
+        display:block;
+        background-color: #090909;
+        #bgr {
+            margin-left: 375px;
+            filter: (invert(100%));
+        }
+
+        ul {
+            width: 423px;
+            text-align: center;
+            list-style: none;
+            li {
+                padding: 15px;
+                border: 1px solid white;
+                width: 355px;
+                margin: auto;
+                margin-top: 10px;
+                text-decoration: none;
+            }
+        }
+
+        a {
+            text-decoration: none;
+            color: rgb(253, 253, 253);
+            font-family: $font;
+            width: 414px;
+            text-align: center;
+            margin: auto;
+        }
+    }
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        .sobre {
+            text-align: center;
+            margin-left: -35px;
+            padding-top: 35px;
+        }
+
+        .foto img {
+            width: 385px
+        }
+    }
+
+    #projeto {
+        padding-top: 25px;
+        
+        #cards {
+            display: flex;
+            flex-direction: column;
+
+            #card {
+                margin-bottom: 15px;
+            }
+        }
+    }
+
+    .container3 {
+        #tudo {
+            padding-top: 25px;
+        }
+        padding-top: 1055px;
+        #tecnologias, #utilitarios, #adicionais {
+            img {
+                width: 50px;
+            }
+        }
+    }
+
+    #topo {
+        text-align: center;
+        font-family: $font;
+        font-size: 10px;
+        padding-top: 455px;
+        background-color: #2B2E30;
+    
+        a {
+            text-decoration: none;
+            color: white;
+        }
+    }
+}
+
+@media screen and (max-width: 414px) {
+    header {
+        display: none;
+    }
+    .menu-bg {
+        display:block;
+        background-color: #090909;
+        #bgr {
+            margin-left: 355px;
+            filter: (invert(100%));
+        }
+
+        ul {
+            width: 423px;
+            text-align: center;
+            list-style: none;
+            li {
+                padding: 15px;
+                border: 1px solid white;
+                width: 355px;
+                margin: auto;
+                margin-top: 10px;
+                text-decoration: none;
+            }
+        }
+
+        a {
+            text-decoration: none;
+            color: rgb(253, 253, 253);
+            font-family: $font;
+            width: 414px;
+            text-align: center;
+            margin: auto;
+        }
+    }
+
+    .container {
+        width: 414px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+
+        .sobre, .foto {
+            width: 410px;
+        }
+
+        .sobre {
+            text-align: center;
+            margin-left: -35px;
+            padding-top: 35px;
+        }
+
+        .foto img {
+            width: 385px
+        }
+    }
+
+    #projeto {
+        padding-top: 25px;
+        
+        #cards {
+            display: flex;
+            flex-direction: column;
+
+            #card {
+                margin-bottom: 15px;
+            }
+        }
+    }
+
+    .container3 {
+        #tudo {
+            padding-top: 25px;
+        }
+        padding-top: 1055px;
+        #tecnologias, #utilitarios, #adicionais {
+            img {
+                width: 50px;
+            }
+        }
+    }
+
+    #topo {
+        text-align: center;
+        font-family: $font;
+        font-size: 10px;
+        padding-top: 455px;
+        background-color: #2B2E30;
+    
+        a {
+            text-decoration: none;
+            color: white;
+        }
+    }
+}
+
+@media screen and (max-width: 390px) {
+    header {
+        display: none;
+    }
+    .menu-bg {
+        display:block;
+        background-color: #090909;
+        #bgr {
+            margin-left: 335px;
+            filter: (invert(100%));
+        }
+
+        ul {
+            width: 400px;
+            text-align: center;
+            list-style: none;
+            li {
+                padding: 15px;
+                border: 1px solid white;
+                width: 355px;
+                margin: auto;
+                margin-top: 10px;
+                text-decoration: none;
+            }
+        }
+
+        a {
+            text-decoration: none;
+            color: rgb(253, 253, 253);
+            font-family: $font;
+            width: 414px;
+            text-align: center;
+            margin: auto;
+        }
+    }
+
+    .container {
+        width: 414px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+
+        .sobre, .foto {
+            width: 410px;
+        }
+
+        .sobre {
+            text-align: center;
+            margin-left: -55px;
+            padding-top: 5px;
+        }
+
+        .foto img {
+            width: 385px
+        }
+    }
+
+    #projeto {
+        padding-top: 25px;
+        
+        #cards {
+            display: flex;
+            flex-direction: column;
+
+            #card {
+                margin-bottom: 15px;
+            }
+        }
+    }
+
+    .container3 {
+        #tudo {
+            padding-top: 25px;
+        }
+        padding-top: 1055px;
+        #tecnologias, #utilitarios, #adicionais {
+            img {
+                width: 50px;
+            }
+        }
+    }
+
+    #topo {
+        text-align: center;
+        font-family: $font;
+        font-size: 10px;
+        padding-top: 455px;
+        background-color: #2B2E30;
+    
+        a {
+            text-decoration: none;
+            color: white;
+        }
+    }
+}
+
+@media screen and (max-width: 375px) {
+    header {
+        display: none;
+    }
+    .menu-bg {
+        display:block;
+        background-color: #090909;
+        #bgr {
+            margin-left: 315px;
+            filter: (invert(100%));
+        }
+
+        ul {
+            width: 383px;
+            text-align: center;
+            list-style: none;
+            li {
+                padding: 15px;
+                border: 1px solid white;
+                margin: auto;
+                margin-top: 10px;
+                text-decoration: none;
+            }
+        }
+
+        a {
+            text-decoration: none;
+            color: rgb(253, 253, 253);
+            font-family: $font;
+            text-align: center;
+            margin: auto;
+        }
+    }
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+
+        .sobre {
+            text-align: center;
+            margin-left: -75px;
+            padding-top: 25px;
+        }
+
+        .foto {
+            margin-left: -45px;
+            img {
+                width: 310px;
+            }
+        }
+    }
+
+    #projeto {
+        padding-top: 25px;
+        
+        #cards {
+            display: flex;
+            flex-direction: column;
+
+            #card {
+                margin-bottom: 15px;
+            }
+        }
+    }
+
+    .container3 {
+        #tudo {
+            padding-top: 25px;
+        }
+        padding-top: 1055px;
+        #tecnologias, #utilitarios, #adicionais {
+            img {
+                width: 50px;
+            }
+        }
+    }
+
+    #topo {
+        text-align: center;
+        font-family: $font;
+        font-size: 10px;
+        padding-top: 455px;
+        background-color: #2B2E30;
+    
+        a {
+            text-decoration: none;
+            color: white;
+        }
+    }
+}
+
+@media screen and (max-width: 360px) {
+    header {
+        display: none;
+    }
+    .menu-bg {
+        display:block;
+        background-color: #090909;
+        #bgr {
+            margin-left: 305px;
+            filter: (invert(100%));
+        }
+
+        ul {
+            width: 363px;
+            text-align: center;
+            list-style: none;
+            li {
+                padding: 15px;
+                border: 1px solid white;
+                margin: auto;
+                margin-top: 10px;
+                text-decoration: none;
+            }
+        }
+
+        a {
+            text-decoration: none;
+            color: rgb(253, 253, 253);
+            font-family: $font;
+            text-align: center;
+            margin: auto;
+        }
+    }
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+
+        .sobre {
+            text-align: center;
+            margin-left: -85px;
+            padding-top: 25px;
+        }
+
+        .foto {
+            margin-left: -65px;
+            img {
+                width: 385px;
+            }
+        }
+    }
+
+    #projeto {
+        padding-top: 25px;
+        
+        #cards {
+            display: flex;
+            flex-direction: column;
+
+            #card {
+                margin-bottom: 15px;
+                width: 325px;
+
+                #picture-pj {
+                    width: 315px;
+                }
+            }
+            #desc {
+                width: 305px;
+                margin: auto;
+            }
+        }
+    }
+
+    .container3 {
+        #tudo {
+            padding-top: 25px;
+        }
+        padding-top: 1055px;
+        #tecnologias, #utilitarios, #adicionais {
+            img {
+                width: 50px;
+            }
+        }
+    }
+
+    #topo {
+        text-align: center;
+        font-family: $font;
+        font-size:8px;
+        padding-top:555px;
+        background-color: #2B2E30;
+    
+        a {
+            text-decoration: none;
+            color: white;
+        }
     }
 }

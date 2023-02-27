@@ -9,6 +9,9 @@ body {
   -webkit-user-select: none;
      -moz-user-select: none;
           user-select: none;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
 }
 
 header {
@@ -32,6 +35,10 @@ header .menu a:hover {
   color: rgb(137, 57, 194);
 }
 
+.menu-bg {
+  display: none;
+}
+
 .container {
   display: flex;
   flex-direction: row;
@@ -43,7 +50,7 @@ header .menu a:hover {
   background-image: linear-gradient(#2B2E30 35%, #0040ae 35%);
 }
 .container .sobre {
-  margin-right: -80px;
+  margin-right: -45px;
 }
 .container .sobre h1 {
   filter: drop-shadow(0.5px 0.5px 25px black);
@@ -256,4 +263,419 @@ header .menu a:hover {
 #topo a {
   text-decoration: none;
   color: white;
+}
+
+@media screen and (max-width: 428px) {
+  header {
+    display: none;
+  }
+  .menu-bg {
+    display: block;
+    background-color: #090909;
+  }
+  .menu-bg #bgr {
+    margin-left: 375px;
+    filter: invert(100%);
+  }
+  .menu-bg ul {
+    width: 423px;
+    text-align: center;
+    list-style: none;
+  }
+  .menu-bg ul li {
+    padding: 15px;
+    border: 1px solid white;
+    width: 355px;
+    margin: auto;
+    margin-top: 10px;
+    text-decoration: none;
+  }
+  .menu-bg a {
+    text-decoration: none;
+    color: rgb(253, 253, 253);
+    font-family: "Montserrat", "Babylonica", "Poppins", "Quicksand", "Zeyada", Helvetica, "Fredoka One", Verdana;
+    width: 414px;
+    text-align: center;
+    margin: auto;
+  }
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .container .sobre {
+    text-align: center;
+    margin-left: -35px;
+    padding-top: 35px;
+  }
+  .container .foto img {
+    width: 385px;
+  }
+  #projeto {
+    padding-top: 25px;
+  }
+  #projeto #cards {
+    display: flex;
+    flex-direction: column;
+  }
+  #projeto #cards #card {
+    margin-bottom: 15px;
+  }
+  .container3 {
+    padding-top: 1055px;
+  }
+  .container3 #tudo {
+    padding-top: 25px;
+  }
+  .container3 #tecnologias img, .container3 #utilitarios img, .container3 #adicionais img {
+    width: 50px;
+  }
+  #topo {
+    text-align: center;
+    font-family: "Montserrat", "Babylonica", "Poppins", "Quicksand", "Zeyada", Helvetica, "Fredoka One", Verdana;
+    font-size: 10px;
+    padding-top: 455px;
+    background-color: #2B2E30;
+  }
+  #topo a {
+    text-decoration: none;
+    color: white;
+  }
+}
+@media screen and (max-width: 414px) {
+  header {
+    display: none;
+  }
+  .menu-bg {
+    display: block;
+    background-color: #090909;
+  }
+  .menu-bg #bgr {
+    margin-left: 355px;
+    filter: invert(100%);
+  }
+  .menu-bg ul {
+    width: 423px;
+    text-align: center;
+    list-style: none;
+  }
+  .menu-bg ul li {
+    padding: 15px;
+    border: 1px solid white;
+    width: 355px;
+    margin: auto;
+    margin-top: 10px;
+    text-decoration: none;
+  }
+  .menu-bg a {
+    text-decoration: none;
+    color: rgb(253, 253, 253);
+    font-family: "Montserrat", "Babylonica", "Poppins", "Quicksand", "Zeyada", Helvetica, "Fredoka One", Verdana;
+    width: 414px;
+    text-align: center;
+    margin: auto;
+  }
+  .container {
+    width: 414px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  .container .sobre, .container .foto {
+    width: 410px;
+  }
+  .container .sobre {
+    text-align: center;
+    margin-left: -35px;
+    padding-top: 35px;
+  }
+  .container .foto img {
+    width: 385px;
+  }
+  #projeto {
+    padding-top: 25px;
+  }
+  #projeto #cards {
+    display: flex;
+    flex-direction: column;
+  }
+  #projeto #cards #card {
+    margin-bottom: 15px;
+  }
+  .container3 {
+    padding-top: 1055px;
+  }
+  .container3 #tudo {
+    padding-top: 25px;
+  }
+  .container3 #tecnologias img, .container3 #utilitarios img, .container3 #adicionais img {
+    width: 50px;
+  }
+  #topo {
+    text-align: center;
+    font-family: "Montserrat", "Babylonica", "Poppins", "Quicksand", "Zeyada", Helvetica, "Fredoka One", Verdana;
+    font-size: 10px;
+    padding-top: 455px;
+    background-color: #2B2E30;
+  }
+  #topo a {
+    text-decoration: none;
+    color: white;
+  }
+}
+@media screen and (max-width: 390px) {
+  header {
+    display: none;
+  }
+  .menu-bg {
+    display: block;
+    background-color: #090909;
+  }
+  .menu-bg #bgr {
+    margin-left: 335px;
+    filter: invert(100%);
+  }
+  .menu-bg ul {
+    width: 400px;
+    text-align: center;
+    list-style: none;
+  }
+  .menu-bg ul li {
+    padding: 15px;
+    border: 1px solid white;
+    width: 355px;
+    margin: auto;
+    margin-top: 10px;
+    text-decoration: none;
+  }
+  .menu-bg a {
+    text-decoration: none;
+    color: rgb(253, 253, 253);
+    font-family: "Montserrat", "Babylonica", "Poppins", "Quicksand", "Zeyada", Helvetica, "Fredoka One", Verdana;
+    width: 414px;
+    text-align: center;
+    margin: auto;
+  }
+  .container {
+    width: 414px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  .container .sobre, .container .foto {
+    width: 410px;
+  }
+  .container .sobre {
+    text-align: center;
+    margin-left: -55px;
+    padding-top: 5px;
+  }
+  .container .foto img {
+    width: 385px;
+  }
+  #projeto {
+    padding-top: 25px;
+  }
+  #projeto #cards {
+    display: flex;
+    flex-direction: column;
+  }
+  #projeto #cards #card {
+    margin-bottom: 15px;
+  }
+  .container3 {
+    padding-top: 1055px;
+  }
+  .container3 #tudo {
+    padding-top: 25px;
+  }
+  .container3 #tecnologias img, .container3 #utilitarios img, .container3 #adicionais img {
+    width: 50px;
+  }
+  #topo {
+    text-align: center;
+    font-family: "Montserrat", "Babylonica", "Poppins", "Quicksand", "Zeyada", Helvetica, "Fredoka One", Verdana;
+    font-size: 10px;
+    padding-top: 455px;
+    background-color: #2B2E30;
+  }
+  #topo a {
+    text-decoration: none;
+    color: white;
+  }
+}
+@media screen and (max-width: 375px) {
+  header {
+    display: none;
+  }
+  .menu-bg {
+    display: block;
+    background-color: #090909;
+  }
+  .menu-bg #bgr {
+    margin-left: 315px;
+    filter: invert(100%);
+  }
+  .menu-bg ul {
+    width: 383px;
+    text-align: center;
+    list-style: none;
+  }
+  .menu-bg ul li {
+    padding: 15px;
+    border: 1px solid white;
+    margin: auto;
+    margin-top: 10px;
+    text-decoration: none;
+  }
+  .menu-bg a {
+    text-decoration: none;
+    color: rgb(253, 253, 253);
+    font-family: "Montserrat", "Babylonica", "Poppins", "Quicksand", "Zeyada", Helvetica, "Fredoka One", Verdana;
+    text-align: center;
+    margin: auto;
+  }
+  .container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .container .sobre {
+    text-align: center;
+    margin-left: -75px;
+    padding-top: 25px;
+  }
+  .container .foto {
+    margin-left: -45px;
+  }
+  .container .foto img {
+    width: 310px;
+  }
+  #projeto {
+    padding-top: 25px;
+  }
+  #projeto #cards {
+    display: flex;
+    flex-direction: column;
+  }
+  #projeto #cards #card {
+    margin-bottom: 15px;
+  }
+  .container3 {
+    padding-top: 1055px;
+  }
+  .container3 #tudo {
+    padding-top: 25px;
+  }
+  .container3 #tecnologias img, .container3 #utilitarios img, .container3 #adicionais img {
+    width: 50px;
+  }
+  #topo {
+    text-align: center;
+    font-family: "Montserrat", "Babylonica", "Poppins", "Quicksand", "Zeyada", Helvetica, "Fredoka One", Verdana;
+    font-size: 10px;
+    padding-top: 455px;
+    background-color: #2B2E30;
+  }
+  #topo a {
+    text-decoration: none;
+    color: white;
+  }
+}
+@media screen and (max-width: 360px) {
+  header {
+    display: none;
+  }
+  .menu-bg {
+    display: block;
+    background-color: #090909;
+  }
+  .menu-bg #bgr {
+    margin-left: 305px;
+    filter: invert(100%);
+  }
+  .menu-bg ul {
+    width: 363px;
+    text-align: center;
+    list-style: none;
+  }
+  .menu-bg ul li {
+    padding: 15px;
+    border: 1px solid white;
+    margin: auto;
+    margin-top: 10px;
+    text-decoration: none;
+  }
+  .menu-bg a {
+    text-decoration: none;
+    color: rgb(253, 253, 253);
+    font-family: "Montserrat", "Babylonica", "Poppins", "Quicksand", "Zeyada", Helvetica, "Fredoka One", Verdana;
+    text-align: center;
+    margin: auto;
+  }
+  .container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .container .sobre {
+    text-align: center;
+    margin-left: -85px;
+    padding-top: 25px;
+  }
+  .container .foto {
+    margin-left: -65px;
+  }
+  .container .foto img {
+    width: 385px;
+  }
+  #projeto {
+    padding-top: 25px;
+  }
+  #projeto #cards {
+    display: flex;
+    flex-direction: column;
+  }
+  #projeto #cards #card {
+    margin-bottom: 15px;
+    width: 325px;
+  }
+  #projeto #cards #card #picture-pj {
+    width: 315px;
+  }
+  #projeto #cards #desc {
+    width: 305px;
+    margin: auto;
+  }
+  .container3 {
+    padding-top: 1055px;
+  }
+  .container3 #tudo {
+    padding-top: 25px;
+  }
+  .container3 #tecnologias img, .container3 #utilitarios img, .container3 #adicionais img {
+    width: 50px;
+  }
+  #topo {
+    text-align: center;
+    font-family: "Montserrat", "Babylonica", "Poppins", "Quicksand", "Zeyada", Helvetica, "Fredoka One", Verdana;
+    font-size: 8px;
+    padding-top: 555px;
+    background-color: #2B2E30;
+  }
+  #topo a {
+    text-decoration: none;
+    color: white;
+  }
 }/*# sourceMappingURL=index.css.map */
