@@ -439,14 +439,14 @@ header .menu a:hover {
     filter: invert(100%);
   }
   .menu-bg ul {
-    width: 400px;
     text-align: center;
     list-style: none;
+    margin: auto;
+    margin-left: -15px;
   }
   .menu-bg ul li {
     padding: 15px;
     border: 1px solid white;
-    width: 355px;
     margin: auto;
     margin-top: 10px;
     text-decoration: none;
@@ -455,7 +455,6 @@ header .menu a:hover {
     text-decoration: none;
     color: rgb(253, 253, 253);
     font-family: "Montserrat", "Babylonica", "Poppins", "Quicksand", "Zeyada", Helvetica, "Fredoka One", Verdana;
-    width: 414px;
     text-align: center;
     margin: auto;
   }
@@ -603,11 +602,12 @@ header .menu a:hover {
     filter: invert(100%);
   }
   .menu-bg ul {
-    width: 363px;
     text-align: center;
     list-style: none;
+    margin-left: -9px;
   }
   .menu-bg ul li {
+    width: 335px;
     padding: 15px;
     border: 1px solid white;
     margin: auto;
@@ -619,7 +619,7 @@ header .menu a:hover {
     color: rgb(253, 253, 253);
     font-family: "Montserrat", "Babylonica", "Poppins", "Quicksand", "Zeyada", Helvetica, "Fredoka One", Verdana;
     text-align: center;
-    margin: auto;
+    width: 365px;
   }
   .container {
     display: flex;
@@ -628,14 +628,16 @@ header .menu a:hover {
     justify-content: center;
     align-items: center;
     text-align: center;
+    margin: auto;
+    width: 360px;
   }
   .container .sobre {
     text-align: center;
-    margin-left: -85px;
+    margin-left: -55px;
     padding-top: 25px;
   }
   .container .foto {
-    margin-left: -65px;
+    margin-left: -25px;
   }
   .container .foto img {
     width: 385px;

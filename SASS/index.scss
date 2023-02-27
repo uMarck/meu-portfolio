@@ -493,13 +493,13 @@ header {
         }
 
         ul {
-            width: 400px;
             text-align: center;
             list-style: none;
+            margin: auto;
+            margin-left: -15px;
             li {
                 padding: 15px;
                 border: 1px solid white;
-                width: 355px;
                 margin: auto;
                 margin-top: 10px;
                 text-decoration: none;
@@ -510,7 +510,6 @@ header {
             text-decoration: none;
             color: rgb(253, 253, 253);
             font-family: $font;
-            width: 414px;
             text-align: center;
             margin: auto;
         }
@@ -686,10 +685,11 @@ header {
         }
 
         ul {
-            width: 363px;
             text-align: center;
             list-style: none;
+            margin-left: -9px;
             li {
+                width: 335px;
                 padding: 15px;
                 border: 1px solid white;
                 margin: auto;
@@ -703,7 +703,7 @@ header {
             color: rgb(253, 253, 253);
             font-family: $font;
             text-align: center;
-            margin: auto;
+            width: 365px;
         }
     }
 
@@ -714,15 +714,17 @@ header {
         justify-content: center;
         align-items: center;
         text-align: center;
+        margin: auto;
+        width: 360px;
 
         .sobre {
             text-align: center;
-            margin-left: -85px;
+            margin-left: -55px;
             padding-top: 25px;
         }
 
         .foto {
-            margin-left: -65px;
+            margin-left: -25px;
             img {
                 width: 385px;
             }
