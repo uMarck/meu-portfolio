@@ -10,20 +10,24 @@ Ainda está no começo! Em breve terá mais projetos, página de contato, redes 
 # INTEGRAÇÕES
 A principal integração deste portfólio, está na parte de "Contato"
 
-Usei o serviço da FormSubmit.co para facilitar a comuinicação via e-mail com o usuario, em poucos segundos!
+Usei o serviço da FormSubmit.co para facilitar a comunicação via e-mail com o usuario, em poucos segundos!
 
 Sem precisar de qualquer linguagem que seja para o back end.
 
 Uma plataforma 100% confiável que ainda por cima, dar proteção spam para o email recebedor da mensagem.
 
 # ANIMAÇÕES
-As animação 3D da minha foto, foi feito pela biblioteca "Vanilla-tilt.js"
+A animação 3D da minha foto, foi feito pela biblioteca "Vanilla-tilt.js"
 
 É uma ferramenta muito útil para criar efeitos paralax em poucos segundos!
 
 Basta copiar o JS da animação no site da biblioteca e depois, ir no elemento HTML que deseja colocar a animação
 
-E digitar "data-tilt" e pronto! Está funcionando!
+E digitar "data-tilt" ao lado/antes do ID ou CLASS e pronto! Está funcionando!
+
+Existem vários tipos de animações para ser usadas no qual eu recomendo muito!
+
+*> https://micku7zu.github.io/vanilla-tilt.js/
 
 # CSS/SASS
 Toda a estilização do site, cores, fontes e etc, foram feitos com SASS e obviamente, convertidos para CSS3
