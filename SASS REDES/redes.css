@@ -1,0 +1,71 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #292929;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  padding: 200px;
+}
+.container #texto {
+  font-family: "Montserrat", "Poppins", "Oswald", Tahoma, Verdana, Helvetica;
+  color: white;
+  padding: 5px;
+}
+.container #redes {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  font-family: "Montserrat", "Poppins", "Oswald", Tahoma, Verdana, Helvetica;
+}
+.container #redes img {
+  margin: 15px;
+  transition: 0.5s;
+}
+.container #redes img:hover {
+  transform: translateY(-10px);
+}
+.container #voltar {
+  padding-top: 35px;
+}
+.container #voltar a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: rgb(255, 255, 255);
+  transition: 0.5s;
+  font-family: "Montserrat", "Poppins", "Oswald", Tahoma, Verdana, Helvetica;
+  border: 2px solid #585858;
+  padding: 10px;
+}
+.container #voltar a:hover {
+  border: 2px solid #494949;
+  color: wheat;
+  border-radius: 8px;
+}
+
+@media screen and (max-width: 414px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+    text-align: center;
+  }
+  .container #redes {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}/*# sourceMappingURL=redes.css.map */
