@@ -521,7 +521,7 @@ header .menu a:hover {
     filter: invert(100%);
   }
   .menu-bg ul {
-    width: 383px;
+    margin-left: -24px;
     text-align: center;
     list-style: none;
   }
@@ -678,6 +678,101 @@ header .menu a:hover {
   }
   #topo a {
     text-decoration: none;
+    color: white;
+  }
+}
+@media screen and (max-width: 320px) {
+  body {
+    background-color: #5878fa;
+  }
+  header {
+    display: none;
+  }
+  .menu-bg {
+    display: block;
+    background-color: #090909;
+  }
+  .menu-bg #bgr {
+    margin-left: 265px;
+    filter: invert(100%);
+  }
+  .menu-bg ul {
+    text-align: center;
+    list-style: none;
+    margin-left: -51px;
+  }
+  .menu-bg ul li {
+    width: 305px;
+    padding: 15px;
+    border: 1px solid white;
+    margin: auto;
+    margin-top: 10px;
+    text-decoration: none;
+  }
+  .menu-bg a {
+    text-decoration: none;
+    color: rgb(253, 253, 253);
+    font-family: "Montserrat", "Babylonica", "Poppins", "Quicksand", "Zeyada", Helvetica, "Fredoka One", Verdana;
+    text-align: center;
+    width: 365px;
+  }
+  .container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+    width: 360px;
+  }
+  .container .sobre {
+    text-align: center;
+    margin-left: -90px;
+    padding-top: 25px;
+  }
+  .container .foto {
+    margin-left: -46px;
+  }
+  .container .foto img {
+    width: 335px;
+  }
+  #projeto {
+    padding-top: 25px;
+  }
+  #projeto #cards {
+    display: flex;
+    flex-direction: column;
+  }
+  #projeto #cards #card {
+    margin-bottom: 15px;
+    width: 305px;
+  }
+  #projeto #cards #card #picture-pj {
+    width: 295px;
+  }
+  #projeto #cards #card #tecs {
+    font-size: 14px;
+  }
+  #projeto #cards #card #desc p {
+    font-size: 14px;
+    width: 255px;
+    line-height: 15px;
+    margin: auto;
+  }
+  #projeto #cards #desc {
+    width: 305px;
+    margin: auto;
+  }
+  .container3 {
+    display: none;
+  }
+  #topo {
+    display: none;
+  }
+  footer {
+    padding: 150px;
+    font-size: 20px;
     color: white;
   }
 }/*# sourceMappingURL=index.css.map */
