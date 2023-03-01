@@ -26,14 +26,21 @@ header {
     background-color: #2B2E30;
     font-family: "Montserrat", "Helvetica Neue", Helvetica;
 
+    #span {
+        border-bottom: 2px solid transparent;
+        &:hover {
+            border-bottom:0.5px solid white;
+        }
+    }
+
     .menu a {
         text-decoration: none;
         padding: 5px 20px;
-        margin: 0px 99px 99px 0px;
+        margin: 0px 52.5px 52.5px 0px;
         color: white;
         transition: 0.5s;
         &:hover {
-            color: rgb(137, 57, 194);
+            color: rgb(57, 96, 194);
         }
     }
 }
@@ -386,6 +393,7 @@ header {
     header {
         display: none;
     }
+    
     .menu-bg {
         display:block;
         background-color: #090909;
