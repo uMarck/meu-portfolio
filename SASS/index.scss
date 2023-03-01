@@ -19,7 +19,7 @@ body {
 header {
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     padding: 25px;
     color: white;
@@ -480,6 +480,103 @@ header {
     }
 }
 
+@media screen and (max-width: 393px) {
+    header {
+        display: none;
+    }
+    .menu-bg {
+        display:block;
+        background-color: #090909;
+        #bgr {
+            margin-left: 335px;
+            filter: (invert(100%));
+        }
+
+        ul {
+            text-align: center;
+            list-style: none;
+            margin: auto;
+            margin-left: -15px;
+            li {
+                padding: 15px;
+                border: 1px solid white;
+                margin: auto;
+                margin-top: 10px;
+                text-decoration: none;
+            }
+        }
+
+        a {
+            text-decoration: none;
+            color: rgb(253, 253, 253);
+            font-family: $font;
+            text-align: center;
+            margin: auto;
+        }
+    }
+
+    .container {
+        width: 414px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+
+        .sobre, .foto {
+            width: 410px;
+        }
+
+        .sobre {
+            text-align: center;
+            margin-left: -55px;
+            padding-top: 5px;
+        }
+
+        .foto img {
+            width: 385px
+        }
+    }
+
+    #projeto {
+        padding-top: 25px;
+        
+        #cards {
+            display: flex;
+            flex-direction: column;
+
+            #card {
+                margin-bottom: 15px;
+            }
+        }
+    }
+
+    .container3 {
+        #tudo {
+            padding-top: 25px;
+        }
+        padding-top: 1055px;
+        #tecnologias, #utilitarios, #adicionais {
+            img {
+                width: 50px;
+            }
+        }
+    }
+
+    #topo {
+        text-align: center;
+        font-family: $font;
+        font-size: 10px;
+        padding-top: 455px;
+        background-color: #2B2E30;
+    
+        a {
+            text-decoration: none;
+            color: white;
+        }
+    }
+}
+
 @media screen and (max-width: 390px) {
     header {
         display: none;
@@ -687,7 +784,7 @@ header {
         ul {
             text-align: center;
             list-style: none;
-            margin-left: -9px;
+            margin-left: -px;
             li {
                 width: 335px;
                 padding: 15px;

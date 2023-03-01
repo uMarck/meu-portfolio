@@ -17,7 +17,7 @@ body {
 header {
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
   padding: 25px;
   color: white;
@@ -426,6 +426,88 @@ header .menu a:hover {
     color: white;
   }
 }
+@media screen and (max-width: 393px) {
+  header {
+    display: none;
+  }
+  .menu-bg {
+    display: block;
+    background-color: #090909;
+  }
+  .menu-bg #bgr {
+    margin-left: 335px;
+    filter: invert(100%);
+  }
+  .menu-bg ul {
+    text-align: center;
+    list-style: none;
+    margin: auto;
+    margin-left: -15px;
+  }
+  .menu-bg ul li {
+    padding: 15px;
+    border: 1px solid white;
+    margin: auto;
+    margin-top: 10px;
+    text-decoration: none;
+  }
+  .menu-bg a {
+    text-decoration: none;
+    color: rgb(253, 253, 253);
+    font-family: "Montserrat", "Babylonica", "Poppins", "Quicksand", "Zeyada", Helvetica, "Fredoka One", Verdana;
+    text-align: center;
+    margin: auto;
+  }
+  .container {
+    width: 414px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  .container .sobre, .container .foto {
+    width: 410px;
+  }
+  .container .sobre {
+    text-align: center;
+    margin-left: -55px;
+    padding-top: 5px;
+  }
+  .container .foto img {
+    width: 385px;
+  }
+  #projeto {
+    padding-top: 25px;
+  }
+  #projeto #cards {
+    display: flex;
+    flex-direction: column;
+  }
+  #projeto #cards #card {
+    margin-bottom: 15px;
+  }
+  .container3 {
+    padding-top: 1055px;
+  }
+  .container3 #tudo {
+    padding-top: 25px;
+  }
+  .container3 #tecnologias img, .container3 #utilitarios img, .container3 #adicionais img {
+    width: 50px;
+  }
+  #topo {
+    text-align: center;
+    font-family: "Montserrat", "Babylonica", "Poppins", "Quicksand", "Zeyada", Helvetica, "Fredoka One", Verdana;
+    font-size: 10px;
+    padding-top: 455px;
+    background-color: #2B2E30;
+  }
+  #topo a {
+    text-decoration: none;
+    color: white;
+  }
+}
 @media screen and (max-width: 390px) {
   header {
     display: none;
@@ -604,7 +686,7 @@ header .menu a:hover {
   .menu-bg ul {
     text-align: center;
     list-style: none;
-    margin-left: -9px;
+    margin-left: -px;
   }
   .menu-bg ul li {
     width: 335px;
